@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+
+# Prisma
+prisma/migrations/dev.db*
+
+# PostgreSQL portable binaries & data
+pgsql/
+pgsql.zip
+pgdata/
+pglog.txt
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
